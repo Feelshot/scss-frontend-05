@@ -88,8 +88,32 @@ body {
 
 /* ==== MOBILE ==== */
 @media (min-width: 100px) and (max-width: 600px) {
-  body main .container-gral section .section-bottom {
-    display: flex; }
+  body main .container-gral section {
+    width: 350px;
+    height: auto; }
+    body main .container-gral section .section-top {
+      height: 270px; }
+      body main .container-gral section .section-top .white-card h1 {
+        font-size: 22px; }
+      body main .container-gral section .section-top .white-card h2 {
+        font-size: 16px; }
+      body main .container-gral section .section-top .white-card p {
+        font-size: 14px;
+        width: 88%; }
+    body main .container-gral section .section-bottom {
+      flex-direction: column;
+      height: auto; }
+      body main .container-gral section .section-bottom .green-card {
+        width: 100%;
+        border-radius: 0;
+        height: 240px; }
+        body main .container-gral section .section-bottom .green-card button {
+          width: 280px;
+          height: 50px; }
+      body main .container-gral section .section-bottom .cyan-card {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        height: 240px; }
   body footer .attribution {
     font-size: 11px;
     text-align: center; }

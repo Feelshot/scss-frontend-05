@@ -112,28 +112,39 @@ body {
         main {
             .container-gral {
                 section {
+                    width: 350px;
+                    height: auto;
                     .section-top {
+                        height: 270px;
                         .white-card {
-                            h1 {}
-                            h2 {}
-                            p {}
+                            h1 {
+                                font-size: 22px;
+                            }
+                            h2 {
+                                font-size: 16px;
+                            }
+                            p {
+                                font-size: 14px;
+                                width: 88%;
+                            }
                         }
                     }
                     .section-bottom {
-                        display: flex;
+                        flex-direction: column;
+                        height: auto;
                         .green-card {
-                            h2 {}
-                            .p-price {
-                                b {}
+                            width: 100%;
+                            border-radius: 0;
+                            height: 240px;
+                            button {
+                                width: 280px;
+                                height: 50px;
                             }
-                            .p-text {}
-                            button {}
                         }
                         .cyan-card {
-                            h3 {}
-                            ul {
-                                li {}
-                            }
+                            width: 100%;
+                            border-radius: 0 0 10px 10px;
+                            height: 240px;
                         }
                     }
                 }
