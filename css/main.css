@@ -6,8 +6,92 @@
   font-size: 16px;
   font-family: 'Karla', sans-serif; }
 
-body footer .attribution {
-  font-size: 11px;
-  text-align: center; }
-  body footer .attribution a {
-    color: #3e52a3; }
+body {
+  background-color: #e5eff5; }
+  body main .container-gral section {
+    width: 600px;
+    height: 460px;
+    margin: 100px auto; }
+    body main .container-gral section .section-top {
+      width: 100%;
+      height: 210px;
+      background-color: white;
+      border-radius: 10px 10px 0 0; }
+      body main .container-gral section .section-top .white-card {
+        padding: 40px 0 0 30px; }
+        body main .container-gral section .section-top .white-card h1 {
+          color: #1f938f;
+          font-size: 27px; }
+        body main .container-gral section .section-top .white-card h2 {
+          margin-top: 20px;
+          font-size: 20px;
+          color: #c0df34; }
+        body main .container-gral section .section-top .white-card p {
+          margin-top: 10px;
+          color: #98a6bd;
+          line-height: 25px; }
+    body main .container-gral section .section-bottom {
+      display: flex;
+      width: 100%;
+      height: 250px; }
+      body main .container-gral section .section-bottom .green-card {
+        background-color: #1f938f;
+        width: 50%;
+        border-radius: 0 0 0 10px;
+        display: flex;
+        flex-direction: column; }
+        body main .container-gral section .section-bottom .green-card h2 {
+          color: white;
+          margin: 34px 0 20px 34px;
+          font-size: 20px; }
+        body main .container-gral section .section-bottom .green-card .p-price {
+          margin-left: 34px;
+          display: flex;
+          align-items: center;
+          color: #e5eff5; }
+          body main .container-gral section .section-bottom .green-card .p-price b {
+            font-size: 30px;
+            color: white;
+            margin-right: 10px; }
+        body main .container-gral section .section-bottom .green-card .p-text {
+          color: white;
+          margin: 10px 0 20px 34px;
+          font-size: 15px; }
+        body main .container-gral section .section-bottom .green-card button {
+          color: white;
+          width: 230px;
+          height: 40px;
+          border-style: none;
+          background-color: #c0df34;
+          margin: 0 auto;
+          border-radius: 5px;
+          box-shadow: 3px 3px 4px 4px rgba(22, 105, 104, 0.37);
+          cursor: pointer; }
+      body main .container-gral section .section-bottom .cyan-card {
+        background-color: #40bfbd;
+        width: 50%;
+        border-radius: 0 0 10px 0;
+        padding: 34px; }
+        body main .container-gral section .section-bottom .cyan-card h3 {
+          color: white;
+          font-size: 20px; }
+        body main .container-gral section .section-bottom .cyan-card ul {
+          margin-top: 20px; }
+          body main .container-gral section .section-bottom .cyan-card ul li {
+            color: #e5eff5;
+            list-style: none; }
+  body footer .attribution {
+    font-size: 11px;
+    text-align: center; }
+    body footer .attribution a {
+      color: #3e52a3; }
+
+/* ==== MOBILE ==== */
+@media (min-width: 100px) and (max-width: 600px) {
+  body main .container-gral section .section-bottom {
+    display: flex; }
+  body footer .attribution {
+    font-size: 11px;
+    text-align: center; }
+    body footer .attribution a {
+      color: #3e52a3; } }
